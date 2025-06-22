@@ -1,0 +1,26 @@
+roles:
+  Leader:
+    prefix: "&4**"
+    display-name: "&4Leader"
+    priority: 2
+    leader: true
+    default: false
+    permissions: [ALL]
+  Official:
+    prefix: "&6*"
+    display-name: "&6Official"
+    priority: 1
+    leader: false
+    default: false
+    permissions: [ALL]
+  Member:
+    prefix: ""
+    display-name: "&8Member"
+    priority: 0
+    leader: false
+    default: true
+    permissions:
+      - MOTD
+      - DESCRIPTION
+      - DISCORD
+      - TELEGRAM

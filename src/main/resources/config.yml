@@ -1,0 +1,59 @@
+############################################################
+#               PrimalTribes config.yml File               #
+############################################################
+
+# Choose the command name. You can use "CLAN", "GUILD", "TEAM" or "GANG".
+command-name: CLAN
+
+# A list of banned words, not to be used in clans names.
+banned-words: []
+
+# A list of invalid colors to be used in the clans display name.
+invalid-colors: []
+
+# The maximum time for warns to expire.
+max-warn-expire: 86400
+
+# Maximum size of clans names.
+max-size-name: 16
+
+# Minimum size of clans names.
+min-size-name: 3
+
+# Maximum size of clans tags.
+max-size-tag: 3
+
+# Minimum size of clans tags.
+min-size-tag: 3
+
+# Maximum number of members per clan.
+members-per-clan: 10
+
+# Maximum warns settable from every clan.
+maximum-warns: 30
+
+# Specify after how much time an invite should not be available
+# anymore (in seconds).
+invites-timeout: 60
+
+# Specify after how much time an ally request should not be
+# available anymore (in seconds).
+ally-requests-timeout: 120
+
+# Specify after how much time the logs in the logs files should
+# be deleted (in days).
+logging-days: 10
+
+# The following format is used to validate a Telegram link when
+# putting it in the clan. You can use the following formats:
+# - %d: a digit (number);
+# - %u: an UPPERCASE letter;
+# - %l: a lowercase letter;
+# - %s: a symbol (!@#$%^&*...);
+# - %c: an UPPERCASE or lowercase letter;
+# - %b: a digit or a letter (upper and lowercase);
+# - %a: a combination of all the previous.
+telegram-format: https://t.me/%a%a%a%a%a%a%a%a%a%a%a%a%a%a%a%a%a
+
+# Read telegram-format for more.
+discord-format: https://discord.gg/%b%b%b%b%b%b%b%b

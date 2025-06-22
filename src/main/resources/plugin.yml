@@ -1,0 +1,11 @@
+name: PrimalTribes
+authors: [ Fulminazzo ]
+description: PrimalTribes is an Advanced Innovative Clan Plugin for the players of your server. Its main feature is the conversion of every command for Clan Management into a simple and accurate guy, making it nice and clean for anybody to change the settings of your group.
+version: '${project.version}'
+main: it.fulminazzo.primaltribes.PrimalTribes
+api-version: 1.13
+softdepend: [ PlaceholderAPI, Vault ]
+
+permissions:
+  primaltribes.clan:
+    description: Permission to execute PrimalTribes main command.
